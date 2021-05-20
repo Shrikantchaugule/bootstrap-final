@@ -1,0 +1,25 @@
+.skills{
+    background-color: #0f89cf;
+    color: #0a4c72;
+    height: 70px;
+    text-align: justify;
+    padding-top: 15px;
+}
+
+.footer{
+    background-color:rgb(0, 0, 0);
+    color:rgb(27, 255, 27);
+    margin-top: 20px;
+    height: 200px;
+    padding: 20px;
+}
+
+.pb{
+    margin-top: 10px;
+}
+
+bg for head and body
+.bg{
+    background-color:#F0F3F4;
+}
+

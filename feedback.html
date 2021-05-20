@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+
+
+<head style="background:#FCF3CF;">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <!--icon link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
+
+
+
+    <title>Hello, world!</title>
+
+
+</head>
+
+
+<body>
+    <!--NAVBAR START-->
+    <div class="col-md-12 mt-2">
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <h1 class="display-4" style="color: cornsilk;">Shrikant</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html"
+                                style="color: rgb(27, 255, 27);">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html" style="color: rgb(27, 255, 27);">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false" style="color: rgb(27, 255, 27);">
+                                Projects
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="https://shrikantchaugule.github.io/webdev8-11/index.html">Project: Grid 960</a></li>
+                                <li><a class="dropdown-item" href="Bootstrap/index.html">Bootstrap Front-end</a></li>
+
+                                <li><a class="dropdown-item" href="website/index.html">Basic html web page</a></li>
+                            </ul>   
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link enabled" href="contact.html" tabindex="-1" aria-disabled="true"
+                                style="color: rgb(27, 255, 27);">Hire
+                                Me</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!--NAVBAR END-->
+    
+    <div class="voting">
+
+        <button id="likebtn">
+            <i class="fa fa-thumbs-up"></i>
+        </button>
+        <input type="number" id="input1" value="0" name="">
+
+        <button id="dislikebtn">
+            <i class="fa fa-thumbs-down"></i>
+        </button>
+        <input type="number" id="input2" value="0" name="">
+
+
+    </div>
+
+    <script type="text/javascript">
+
+        Let likebtn = document.querySelector('#likebtn');
+        Let dislikebtn = document.querySelector('#dislikebtn');
+        Let input1 = document.querySelector(#input1);
+        Let input2 = document.querySelector(#input2);
+
+        likebtn.addEventListener('click',()=>{input1.value = parseInt(input1.value) + 1;
+        input1.style.color = "#12ff00"})
+
+        dislikebtn.addEventListener('click',()=>{input1.value = parseInt(input1.value) + 1;
+        input2.style.color = "#ff0000"})
+
+    </script>
+
+</body>
+
+
+
+<!--FOOTER STARTS-->
+<div class="row"
+    style="height: 200px;background-color: black;color: cornsilk;text-align: center;margin-top: 30px;padding-top: 20px;">
+
+    <div class="container col-md-4">
+        <div>
+            <h4><a href="https://www.facebook.com/shrikant.chaugule.9/" style="text-decoration: none;"><i
+                        class="bi bi-facebook"></i> Facebook</a></h4>
+            <h4><a href="https://www.instagram.com/shrikantchaugule/" style="text-decoration: none;"><i
+                        class="bi bi-instagram"></i> Instagram</a>
+                <h4><i class="bi bi-telephone" style="color: ivory;"> 9004269499</i></h4>
+        </div>
+    </div>
+
+    <div class="container col-md-4">
+        <div>
+            <h4 style="text-align: center;"><a href="https://docs.python.org/3/"
+                    style="text-decoration: none;">Python</a></h4>
+            <h4 style="text-align: center;"><a href="https://getbootstrap.com/docs/4.6/getting-started/introduction/"
+                    style="text-decoration: none;">Bootstrap</a></h4>
+            <h4 style="text-align: center;"><a href="https://jqueryui.com/" style="text-decoration: none;">jqueryui</a>
+            </h4>
+        </div>
+    </div>
+
+    <div class="container col-md-4">
+        <div>
+            <h4 style="text-align: center;color:#0d6efd;"><a
+                    href="https://www.itvedant.com/python-training-course?utm_source=Google&utm_medium=ITV_P&utm_campaign=ITVR_PSDPM&gclid=CjwKCAjwv_iEBhASEiwARoemvKfk4XnpYcw3eKZO3EuV5EPLsqXwOE9_gNLLq9gNjwn_T7fKVVPivxoCMA0QAvD_BwE"
+                    style="text-decoration: none;">IT VEDANT</a></h4>
+            <h4 style="text-align: center;color:#0d6efd;"><a href="https://ternaengg.ac.in/"
+                    style="text-decoration: none;">TERNA</a></h4>
+
+        </div>
+    </div>
+
+
+
+
+
+</div>
+<!--FOOTER ENDS-->
+
+
+</html>
